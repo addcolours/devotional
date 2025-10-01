@@ -40,7 +40,7 @@ A comprehensive collection of Hindu devotional stotras, slokas, and mantras in m
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/devotional-website.git
+   git clone https://github.com/addcolours/devotional.git
    ```
 
 2. Set up XAMPP or any Apache server with PHP support
