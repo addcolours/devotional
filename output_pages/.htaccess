@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# Serve all .php, .html files in UTF-8
+AddCharset utf-8 .php .html
+
+# Also set default charset for text/html & text/plain
+AddDefaultCharset utf-8
+
+# serve /en/ as /en/index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^en/?$ en/index.php [L]
+
+# allow extensionless pages within /en/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(en/[A-Za-z0-9\-_\/]+)$ $1.php [L]

@@ -1,0 +1,327 @@
+/* /css/devotional.css */
+.devotional-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.stotra-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 22px;
+  margin: 0.1em 0;
+  font-weight: 400;
+  line-height: normal;
+  background: #fee09a;
+  border-bottom: #c87300 2px solid;
+  padding:10px;
+  margin-bottom: 20px;
+  color: #440c0c;
+  text-align: center;
+  border-radius: 5px;
+  width: auto;
+}
+
+.category-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.category-title {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+/* Removed conflicting rules - now handled by responsive column layout below */
+
+.stotra-list a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  display: block;
+  width: 100%;
+  padding: 2px 0;
+  transition: color 0.3s ease;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.stotra-list a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.page-link {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.page-link.active {
+  background: #333;
+  color: #fff;
+}
+
+
+.category-list  {
+  list-style: none;
+}
+
+.category-list li {
+  box-sizing: border-box;
+  padding: 3px 8px;
+  font-weight: 400;
+  position: relative;
+  list-style: none;
+  padding-left: 40px;
+}
+.category-list li::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 6px;
+  width: 16px;
+  height: 16px;
+  background-image: url(http://localhost/ver2/images/ic_bullet.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.category-list li a {}
+.category-list li a:hover {
+  color: #b92204;
+  text-decoration: underline;
+}
+
+/* Responsive grid layout for stotra lists */
+.stotra-list, .aqtree3clickable ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 8px 35px;
+  width: 100%;
+}
+
+
+/* Large devices (992px and up) */
+@media (min-width: 992px) {
+  .stotra-list, .aqtree3clickable ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/* Extra large devices (1400px and up) */
+@media (min-width: 1400px) {
+  .stotra-list, .aqtree3clickable ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.stotra-list li, .aqtree3clickable li li {
+  box-sizing: border-box;
+  padding: 3px 8px; 
+  font-weight: 400;
+  position: relative;
+  list-style: none !important;
+  padding-left: 40px;
+  display: block;
+  width: 100%;
+}
+
+.stotra-list li::before, .aqtree3clickable li li::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 6px;
+  width: 16px;
+  height: 16px;
+  background-image: url(http://localhost/ver2/images/ic_bullet.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.stotra-list li a:hover, .aqtree3clickable li a:hover {
+ color: #b92204;
+}
+
+/* Fix for HTML entities and text formatting */
+.stotra-list a,
+.stotram-content,
+.stotra-title {
+  font-family: inherit;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure proper text wrapping and spacing */
+.stotra-list a {
+  line-height: 1.4;
+  text-align: left;
+}
+
+
+
+/* Language Table Menu Styles */
+.language-table-menu-devotional {
+  display: table; width:100%;
+  border-collapse: collapse;
+  margin: 0 auto 15px auto;
+  background-color: #fff8dc;
+}
+
+.language-table-menu-devotional li {
+  display: table-cell;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #b22222;
+  font-weight: normal;
+  border: 1px solid; /* Define the borders */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.language-table-menu-devotional li:hover {
+      background-color: #ffebcd;
+      color: #ff4500;
+  }
+
+  .language-table-menu-devotional li.active {
+     /* background-color: #ffebcd;*/
+      color: #ff4500; 
+  background-color: #A1282A; border:1px solid #A1282A;
+  }
+  .language-table-menu-devotional li.active a {
+      color: #fff; 
+  }
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .language-table-menu-devotional .language-table-menu {
+      padding: 10px;
+  }
+
+  .language-table-menu-devotional li {
+      display: inline-block;
+      margin-bottom: 6px; /* Makes each item take full width on very small screens */
+  }
+}
+
+@media (max-width: 1480px) {
+  .language-table-menu-devotional li {
+      margin-bottom: 6px; /* Makes each item take full width on very small screens */
+  }
+}
+
+.languageText1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  list-style: none;
+  padding: 0; 
+}
+
+.languageText1 li {
+  display: inline-block;
+  font-size:16px;
+  padding: 12px 15px;
+  border: 0;
+  margin: 0px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  flex: 0 0 auto;
+  min-width: fit-content;
+}
+
+.languageText1 li:hover {
+  background-color: #ffebcd;
+  color: #ff4500;
+}
+
+.languageText1 li.active {
+  background-color: #A1282A;
+  color: #fff;
+}
+
+.languageText1 li.active a {
+  color: #fff;
+}
+
+.languageText1 a {
+  color: #A1282A;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+  .languageText1 .language-item {
+    font-size: 16px;
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .languageText1 .language-item {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .languageText1 .language-item {
+    font-size: 12px;
+    padding: 6px 8px;
+    margin: 1px;
+  }
+}
+
+@media (max-width: 576px) {
+  .languageText1 .language-item {
+    font-size: 11px;
+    padding: 5px 6px;
+    margin: 1px;
+  }
+}
+
+.stotram-content  {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  padding: 25px;
+  font-size: 18px;
+  text-align: left;
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  table-layout: fixed;
+}
+
+.stotram-content  p {
+  margin-bottom: 12px;
+  font-size: 18px;
+}

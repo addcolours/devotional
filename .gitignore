@@ -1,0 +1,47 @@
+# XAMPP and Apache files
+*.log
+error_log
+access_log
+
+# PHP temporary files
+*.tmp
+*.temp
+*.cache
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Configuration files with sensitive data
+config.php
+database.php
+.env
+
+# Upload directories (if any)
+uploads/
+temp/
+
+# Node modules (if using any frontend build tools)
+node_modules/
+npm-debug.log*
+
+# Composer files (if using PHP package manager)
+vendor/
+composer.lock

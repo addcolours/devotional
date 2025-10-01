@@ -1,0 +1,75 @@
+<?php
+// Meta Tags
+$meta_title = "Mundaka Upanishad Mundaka 2 Section 1 - ClickVedicAstro";
+$meta_description = "Read Mundaka Upanishad Mundaka 2 Section 1 in English with meaning and lyrics. Devotional stotra from Others category.";
+$meta_keywords = "Mundaka Upanishad Mundaka 2 Section 1, Others Stotras, English Stotras, Hindu Devotional Hymns, Stotra Lyrics"; 
+$meta_url = "https://www.clickvedicastro.com/en/mundaka-upanishad-mundaka-2-section-1-english";
+
+// Include Header
+include "../includes/header.php";
+?>
+
+<main id="content" role="main" class="main-content pt-0 pb-0">
+   <!-- START: Breadcrumb -->
+   <div class="page-breadcrumb bg-white py-0">
+      <div class="container">
+         <div class="my-3">
+            <ul class="list">
+               <li><a href="<?php echo $base_url; ?>/index.php">Home</a></li>
+               <li><a href="<?php echo $base_url; ?>/en/" title="Stotras in English">Stotras in English</a></li>
+               <li><a href="<?php echo $base_url; ?>/en/others-stotras">Others Stotras</a></li>
+               <li>Mundaka Upanishad Mundaka 2 Section 1</li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!-- END: Breadcrumb -->
+   <!-- Ad Promotion Template: For my Website -->
+   <div class="adpromotion mt-5">
+      <?php include "../includes/ad-promotion2.php"; ?>
+   </div>
+   <section class="devotional-content pt-5">
+      <div class="container">
+         <h1 class="stotra-title">Mundaka Upanishad Mundaka 2 Section 1</h1>
+         <!-- START: Mulilanguage Menu -->
+            <div id="stotramheader">
+               <div class="languageView">View this in:</div>
+               <ul class="language-table-menu-devotional">
+               <li class="language-item active"><a href="../en/mundaka-upanishad-mundaka-2-section-1-english">English</a></li>
+               <li class="language-item"><a href="../tl/mundaka-upanishad-mundaka-2-section-1-english-telugu">Telugu</a></li>
+               <li class="language-item"><a href="../ta/mundaka-upanishad-mundaka-2-section-1-english-tamil">Tamil</a></li>
+               <li class="language-item"><a href="../kn/mundaka-upanishad-mundaka-2-section-1-english-kannada">Kannada</a></li>
+               <li class="language-item"><a href="../ml/mundaka-upanishad-mundaka-2-section-1-english-malayalam">Malayalam</a></li>
+               <li class="language-item"><a href="../hi/mundaka-upanishad-mundaka-2-section-1-english-hindi">Hindi</a></li>
+               <li class="language-item"><a href="../gu/mundaka-upanishad-mundaka-2-section-1-english-gujarati">Gujarati</a></li>              
+               <li class="language-item"><a href="../mr/mundaka-upanishad-mundaka-2-section-1-english-marathi">Marathi</a></li>
+               <li class="language-item"><a href="../bn/mundaka-upanishad-mundaka-2-section-1-english-bengali">Bengali</a></li>
+               <li class="language-item"><a href="../pu/mundaka-upanishad-mundaka-2-section-1-english-punjabi">Punjabi</a></li>
+               <li class="language-item"><a href="../ory/mundaka-upanishad-mundaka-2-section-1-english-odia">Odia</a></li>
+               </ul>
+            </div>
+          <!-- END: Mulilanguage Menu -->
+         <!-- START: Stotras Container -->
+         <div class="stotram-content">
+            <h2 class="h2">Mundaka Upanishad Mundaka 2 Section 1</h2>
+            <div class="stotram-content-inner">
+               <!-- START: Stotras Content -->
+               <div class="stotramtext" id="stext">
+                  <span>
+                     <span style="font-family:NotoSans; line-height:150%;">
+                        <p>Content will be get from source and inserted here...</p>
+                     </span>
+                  </span>
+               </div>
+               <!-- END: Stotras Content -->
+            </div>
+         </div>
+         <!-- END: Stotras Container -->
+         <!-- Ad Promotion Template: For my Website -->
+         <div class="promo mt-5 mb-5">
+            <?php include "../includes/promo1-devotional.php"; ?>
+         </div>
+      </div>
+   </section>
+</main>
+<?php include "../includes/footer.php"; ?>

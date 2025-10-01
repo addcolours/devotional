@@ -1,0 +1,68 @@
+DURGA PAGES ANALYSIS RESULTS
+==================================================
+
+Total Pages: 54
+Completion Rate: 9.3%
+
+HAS_CONTENT (5 pages):
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-2-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-9-english.php
+  - output_pages/en\durga-kavacham-english.php
+  - output_pages/en\durga-suktam-english.php
+  - output_pages/en\sree-durga-sahasra-nama-stotram-english.php
+
+NEEDS_CONTENT (35 pages):
+  - output_pages/en\dakaradi-durga-ashtottara-sata-namavali-english.php
+  - output_pages/en\dakaradi-sree-durga-sahasra-nama-stotram-english.php
+  - output_pages/en\devi-mahatmyam-aparaadha-kshamapana-stotram-english.php
+  - output_pages/en\devi-mahatmyam-argala-stotram-english.php
+  - output_pages/en\devi-mahatmyam-chamundeswari-mangalam-english.php
+  - output_pages/en\devi-mahatmyam-devi-kavacham-english.php
+  - output_pages/en\devi-mahatmyam-devi-suktam-english.php
+  - output_pages/en\devi-mahatmyam-durga-dvaatrimsannaamaavali-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-adhyaya-1-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-adhyaya-12-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-adhyaya-13-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-adhyaya-2-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-argala-stotram-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-kavacham-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-navarna-stotram-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-rahasya-trayam-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-siddha-kunjika-stotram-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-1-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-10-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-11-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-12-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-13-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-3-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-4-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-5-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-6-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-7-english.php
+  - output_pages/en\devi-mahatmyam-durga-saptasati-chapter-8-english.php
+  - output_pages/en\devi-mahatmyam-keelaka-stotram-english.php
+  - output_pages/en\devi-mahatmyam-mangala-neerajanam-english.php
+  - output_pages/en\devi-mahatmyam-navaavarna-vidhi-english.php
+  - output_pages/en\sree-durga-nakshatra-malika-stuti-english.php
+  - output_pages/en\sri-durga-atharvasheersham-english.php
+  - output_pages/en\sri-durga-chandrakala-stuti-english.php
+  - output_pages/en\sri-durga-sapta-shloki-english.php
+
+NEEDS_FORMATTING_FIX (13 pages):
+  - output_pages/en\arjuna-kruta-durga-stotram-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-ashtottara-sata-namavali-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-keelaka-stotram-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-kshama-prarthana-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-pancha-ratnam-english.php
+  - output_pages/en\devi-mahatmyam-durga-sapta-suktam-english.php
+  - output_pages/en\durga-apaduddharaka-stotram-english.php
+  - output_pages/en\durga-ashtottara-sata-namavali-english.php
+  - output_pages/en\durga-pancha-ratnam-english.php
+  - output_pages/en\nava-durga-stotram-english.php
+  - output_pages/en\navadurga-stotram-english.php
+  - output_pages/en\sri-durga-ashtottara-sata-nama-stotram-english.php
+  - output_pages/en\sri-durga-chalisa-english.php
+
+NEEDS_STRUCTURE_UPDATE (1 pages):
+  - output_pages/en\durga-stotras.php
+
